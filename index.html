@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Team Members</title>
+  <style>
+    * {
+      margin: 0. 30px;
+      padding: 0.30px;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #eaeaea;
+    }
+
+    h1 {
+      background-color: black;
+      color: yellow;
+      text-align: center;
+      padding: 20px;
+      font-size: 32px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      width: 450px;
+      height: 350px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      transition: all 0.4s ease;
+      transform: scale(1);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 2px solid black;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: rotate(5deg);
+    }
+
+    .card h2 {
+      color: red;
+      margin: 10px 0 5px 0;
+      text-decoration:2px solid underline;
+    }
+
+    .card h4 {
+      color: #333;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin: 10px 0 5px 0;
+      text-decoration:2px underline;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+      padding: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Team Members</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="./image 1.jpg" alt="Not Available">
+      <h2>Huzaifa Imran</h2>
+      <h4>Frontend Developer 2 years of experience in HTML, CSS, and JS.</h4>
+      <h3>About Us</h3>
+      <p>Passionate about crafting clean and responsive front-end designs.</p>
+    </div>
+
+    <div class="card">
+      <img src="./image 2.jpg" alt="Not Available">
+      <h2>M.Adil</h2>
+      <h4>UI/UX Designer specializing in user-friendly web interfaces.</h4>
+      <h3>About Us</h3>
+      <p>My goal is to enhance usability through smart UI/UX practices</p>
+    </div>
+
+    <div class="card">
+      <img src="./image 3.jpg" alt="Not Available">
+      <h2>M.Aqeel</h2>
+      <h4>Backend Developer working with Node.js and databases.</h4>
+      <h3>About Us</h3>
+      <p>I specialize in backend development using Node.js and scalable databases.</p>
+    </div>
+
+    <div class="card">
+      <img src="./image 4.jpg" alt="Not Available">
+      <h2>Talha Ahmed</h2>
+      <h4>Frontend Developer 2 years of experience in HTML, CSS, and JS.</h4>
+      <h3>About Us</h3>
+      <p>Dedicated to turning ideas into reality with clean HTML, CSS, and JS</p>
+    </div>
+
+    <div class="card">
+      <img src="./image 5.jpg" alt="Not Available">
+      <h2>Feroz Khan</h2>
+      <h4>UI/UX Designer with modern mobile-first design experience.</h4>
+      <h3>About Us</h3>
+      <p>My designs combine creativity with user-friendliness for a seamless experience.</p>
+    </div>
+
+    <div class="card">
+      <img src="./image 3.jpg" alt="Not Available">
+      <h2>Saeed Ahmed</h2>
+      <h4>Full Stack Developer passionate about React and Node.js</h4>
+      <h3>About Us</h3>
+      <p>I’m a full-stack developer with a love for the MERN stack.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
